@@ -1,0 +1,74 @@
+body
+{
+  color: white;
+  background: linear-gradient(#E2E2E2 0%, #E2E2E2 100%);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #camera_result
+{
+  border: 2px dashed rgb(0, 0, 0);
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+label{
+  background: linear-gradient(#FFD5D5 0%, #bbbbbb 100%);
+  border-radius: 17px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  color: black;
+  padding: 7px;
+  font-weight: 100;
+}
+#result_button , #capture_img{
+  background: linear-gradient(#FFD5D5 0%, #bbbbbb 100%);
+  border-radius: 17px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  color: black;
+  margin-bottom: 20px;
+}
+.emoji_heading{
+  font-size: x-large;
+  letter-spacing: 8px;
+  border-radius: 17px;
+  background: linear-gradient(#bbbbbb 0%, #ffd5d5 100%);
+  margin-top: 20px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 7px;
+}
+h3{
+  font-weight: lighter;
+  color: #9CABFF;
+  font-family: 'Inconsolata', monospace;
+  border: black;
+  border-style: dashed;
+  border-width: 2px;
+  padding: 10px;
+  background-color:#FFD5D5;
+  border-radius: 20px;
+  letter-spacing: 5;
+}
+#note{
+  color: #585858;
+}
+#result_emotion, #result_emotion2{
+  color: black;
+}
